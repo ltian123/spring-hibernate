@@ -1,0 +1,18 @@
+package dao.impl;
+
+import dao.UserDao;
+import entity.User;
+
+public class UserDaoImpl extends GenericDaoImpl<User, Integer> implements UserDao {
+
+	public User selectByUsername(String username) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public User selectByUsernameAndPassword(String username, String password) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
